@@ -1,22 +1,39 @@
-# Welcome to your Lovable project
+#  BrainyBursts – Quiz App
 
-## Project info
+A responsive Quiz Application built with **React**, **TypeScript**, **Tailwind CSS**, and **shadcn/ui**.  
+This project was developed as part of an assignment to demonstrate frontend fundamentals, state management, and clean UI/UX design.
 
-**URL**: https://lovable.dev/projects/3fd8b5f8-ca7e-4b16-a520-e3c7d2168389
+---
 
-## How can I edit this code?
+## Features
+- 5–10 Multiple Choice Questions
+- Fetches questions from **Open Trivia DB API** with **local JSON fallback**
+- One question at a time with 4 options
+- Progress indicator with progress bar
+- Score tracking and results summary
+- Restart quiz option
+- Bonus features:
+  -  30s timer per question
+  -  Difficulty levels (Easy, Medium, Hard)
+  -  High scores persisted in localStorage
+  -  Accessibility (keyboard navigation, ARIA labels)
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## Tech Stack
+- **React + TypeScript**
+- **Tailwind CSS** for styling
+- **shadcn/ui** for UI components
+- **Lucide React** icons
+- **React Router** for navigation
+- **Open Trivia DB API**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/3fd8b5f8-ca7e-4b16-a520-e3c7d2168389) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## Getting Started
 
-**Use your preferred IDE**
+### 1. Clone the repository
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
@@ -50,24 +67,5 @@ npm run dev
 - Click on "New codespace" to launch a new Codespace environment.
 - Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
 
-This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/3fd8b5f8-ca7e-4b16-a520-e3c7d2168389) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
