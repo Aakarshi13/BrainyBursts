@@ -11,7 +11,7 @@ export const Navbar: React.FC = () => {
       <div className="container mx-auto flex items-center justify-between p-4">
         <div className="flex items-center px-4 group">
           <img 
-            src="public\brainquiz.jpg" 
+            src="/brainquiz.jpg" 
             alt="Logo" 
             className="h-10 w-10 mr-3 rounded-full transform transition-transform duration-300 hover:scale-110" 
           />

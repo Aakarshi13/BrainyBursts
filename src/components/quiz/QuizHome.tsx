@@ -29,7 +29,7 @@ export const QuizHome: React.FC<QuizHomeProps> = ({
                      hover:scale-105 cursor-pointer group"
           >
             <img 
-              src="public\brainquiz.jpg" 
+              src="/brainquiz.jpg" 
               alt="Logo" 
               className="h-10 w-10 mr-3 rounded-full transform transition-transform duration-300 
                        group-hover:rotate-12 group-hover:scale-110" 
